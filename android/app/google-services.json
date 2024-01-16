@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "336729405422",
+    "project_id": "skillsell",
+    "storage_bucket": "skillsell.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336729405422:android:9ccbe2be5f490f8a97c0ff",
+        "android_client_info": {
+          "package_name": "com.skillsell.skillsellapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336729405422-bm6b0bjjqkv7ejd9eiq99jc1pd38isee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeM1RHKkOk4qsrwenAX3i-uqALj-l969c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336729405422-bm6b0bjjqkv7ejd9eiq99jc1pd38isee.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "336729405422-fiba48o6u4af7dbckfliu9fu5ehm31ie.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.swirx.skillsell.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336729405422:android:69298dfed70b8cf797c0ff",
+        "android_client_info": {
+          "package_name": "com.swirx.skillsell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336729405422-bm6b0bjjqkv7ejd9eiq99jc1pd38isee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeM1RHKkOk4qsrwenAX3i-uqALj-l969c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336729405422-bm6b0bjjqkv7ejd9eiq99jc1pd38isee.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "336729405422-fiba48o6u4af7dbckfliu9fu5ehm31ie.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.swirx.skillsell.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
