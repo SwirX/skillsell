@@ -3,10 +3,20 @@ import 'package:SkillSell/firebase_options.dart';
 import 'package:SkillSell/routes/routes.dart';
 import 'package:flutter/material.dart';
 import "package:firebase_core/firebase_core.dart";
+import 'package:flutter/services.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky,
+      overlays: [SystemUiOverlay.top]);
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent,
+    ),
+  );
+
   runApp(const App());
 }
 

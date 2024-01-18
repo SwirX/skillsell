@@ -10,7 +10,7 @@ class Property {
   final String _email;
   final String _phone;
   final String _status;
-  final double _area;
+  final int _area;
   final String _dealer;
   final String _dealerNum;
   String? _dealerMail;
@@ -47,7 +47,7 @@ class Property {
   String get dealerNum => _dealerNum;
   String get dealerEmail => _dealerMail ?? "";
   String get status => _status;
-  double get area => _area;
+  int get area => _area;
 }
 
 Property propConvert(data) {

@@ -1,3 +1,4 @@
+import 'package:SkillSell/db.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class Auth {
@@ -10,6 +11,13 @@ class Auth {
   Future<bool> get loggedIn async {
     User? user = await _auth.authStateChanges().first;
     return user != null;
+  }
+
+  Future<bool> get isAdmin async {
+    User? user = currentUser;
+    String? uid = user!.uid;
+    List<String> admins = await firestoreDB().getAdmins();
+    return admins.contains(uid);
   }
 
   // Auth Functions

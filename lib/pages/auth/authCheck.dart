@@ -16,7 +16,7 @@ class _AuthCheckPageState extends State<AuthCheckPage> {
     return StreamBuilder(
       stream: Auth().authStateChanges,
       builder: (context, snapshot) {
-        if (snapshot.hasData) {
+        if (snapshot.data != null) {
           return const HomePage();
         } else {
           return const LoginPage();
