@@ -1,13 +1,7 @@
-import 'dart:async';
-
-import 'package:SkillSell/auth.dart';
 import 'package:SkillSell/models/property.dart';
-import 'package:SkillSell/pages/view/image_viewer.dart';
 import 'package:carousel_images/carousel_images.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:maps_launcher/maps_launcher.dart';
-import 'package:url_launcher/url_launcher_string.dart';
 
 class PropertyInfoPage extends StatefulWidget {
   const PropertyInfoPage({super.key, required this.prop});
